@@ -1,0 +1,22 @@
+﻿Repository
+	En general este proyecto se encarga de los metodos Crud para la base de datos, es decir la interaccion con
+	esta
+	- En la carpeta configuration se encarga de insertar datos a la base de datos por codigo cuando este se lo
+	cree
+	
+Contracts
+	En este proyecto estan las interfaces de Repository
+
+Shared
+	En este proyecto se guardan los dto para formatear las respuestas, es decir que aqui establecemos lo que 
+	queramos enviar como respuesta al usuario
+
+Entities/Exceptions
+	Se guardan las clases para manejar los errores y no tener que usar try/catch en las acciones
+
+Presentation/ActionFilter
+	Se guardan los filters de acciones, solo esta el de validaciones para quitar las validaciones dentro de las
+	acciones del controlador
+
+Shared/RequestFeatures
+	Guarda las interfaces y clases para los parametros del query (paginacion)
